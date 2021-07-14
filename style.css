@@ -1,0 +1,137 @@
+*{
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+}
+section{
+				position: relative;
+				width: 100vw;
+				min-height: 100vh;
+				background-image:         linear-gradient(45deg,#ff009d,#af15ff);
+				display : flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: row;
+}
+/* here is a main structure for card*/
+section .cardBx{
+				position: relative;
+				width: 300px;
+				height: 400px;
+				border: 1px solid #fffc6a;
+				border-radius: 12px;
+				backbackground: #000;
+				margin: 10px 20px;
+				border-radius: 12px;
+				overflow: hidden;
+				box-shadow: 20px 0 120px #460c20;
+				
+				background: #fff;
+				/* transform: scale(1.8); */
+}
+section .cardBx. imgBx{
+				position : relative;
+				width: 100%;
+				height: 100%;
+}
+section .cardBx .imgBx img{
+				position: relative;
+				height : 100%;
+				width : 100%;
+				
+}
+section .cardBx:nth-child(2){
+				transform: scale();
+}
+section .cardBx:hover{
+    
+				transform: scale();
+				transition: 1s;
+}
+section .cardBx:hover .imgBx{
+		filter: blur(8px);
+			transition: 0.1s linear;
+			overflow : hidden;
+}
+section .cardBx:hover .contentBx{
+				z-index: 1000;
+				transition: top 0.3s;
+				top: 10%;
+}
+section .cardBx .imgBx{
+				position : absolute;
+				width: 100%;
+				height : 100%;
+				top: 0;
+				left: 0;
+				background: #304960;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: #dccaca;
+				font-size: 5em;
+				z-index: 100;
+} 
+section .cardBx .contentBx{
+				position : relative;
+				width: 100%;
+				height : 100%;
+				top: 50%;
+				left: 0;
+				padding: 30px;
+				background: transparent;
+				display: flex;
+				justify-content: flex-start;
+				align-items: center;
+				color: #ffff;
+				flex-direction: column;
+				transition: 0.5s;
+}
+section .cardBx .contentBx h3,h4{
+    
+    position: relative;
+				font-weight: 800;
+				font-family: sans-serif;
+				words-spacing: 1px;
+				margin-top: 28px;
+}
+section .cardBx .contentBx span{
+				color: #f1f1f1;
+				font-size: 1.5em;
+}
+section .cardBx .contentBx ul{
+				position: relative;
+				list-style: ;
+				margin: 20px;
+				letter-spacing: 1px;
+				font-weight: 600;
+				text-align: center;
+				font-family: sans-serif;
+}
+section .cardBx .contentBx ul li{
+				margin-bottom: 10px;
+}
+section .cardBx .contentBx button{
+				position: relative;
+				width: 180px;
+				height: 50px;
+				background: #ff4069;
+				font-size: 1.2em;
+				color: #fff;
+				outline: none;
+				border: none;
+				text-align: center;
+				border-radius: 5px;
+				box-shadow: 0 0 22px rgba(0,0,0,0.5);
+				cursor: pointer;
+				margin-bottom: 20px;
+}
+p{
+				position : absolute ;
+				top: 26%;
+				letf: 0;
+				font-size: 4.5em;
+				font-weight: 900;
+				opacity: 0.3;
+				text-align: center;
+}
